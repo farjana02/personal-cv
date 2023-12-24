@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    min-height: 100vh;
+}
+ .container{
+    position: relative;
+    background: #fff;
+    margin: 50px;
+    width:100%;
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,1);
+ }
+.left-side{
+    position:relative;
+    background: #003147;
+    padding: 40px;
+}
+.right-side{
+    background: #fff;
+    position:relative;
+    padding: 40px;
+}
+.text{
+    width: 100%;
+    height: 100%;
+    border: 2px;
+    background-color:azure;  
+    position: absolute;
+    left:0;
+    top:0;
+    object-fit:fill; 
+    margin:auto;
+
+}
+.imgbox{
+    position:relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow:hidden;
+    margin:auto;
+}
+.protfolio-text{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+
+}
+.protfolio-text h1 {
+    color:#fff;
+    font-size: 1.4em;
+    margin-top:20px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    text-align: center;
+
+}
+h3{
+    color:tan;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align:center; 
+}
+.contact-info{
+    color:#fff;
+
+    font-weight: 600px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact-info ul{
+    position:relative;
+}
+.contact-info ul li{
+    list-style: none;
+    padding: relative;
+    margin:10px 0;
+    cursor:pointer;
+}
+.title-education{
+    color:tan;
+    font-weight: bold;
+
+;
+
+}
+.contact-info-education{
+     margin-bottom:15px;
+}
+.contact-info-education h5{
+    color:#03a9f4;
+    font-weight: 500px;
+    margin: 10px;
+}
+.contact-info-education h4{
+    color:whitesmoke;
+    font-weight: 500px;
+}
+.contact-info-education li{
+    list-style: none;
+}
+.title-lenguage{
+    color:tan;
+    font-weight: bold;
+    
+}
+.text2{
+    position:relative;
+    width: 300px;
+    height: 10px;
+    background-color: black;
+    display:block;
+    margin: 5px;
+
+}.text2 div{
+    position: absolute;
+    height:100%;
+    left:0;
+    top:0;
+    background-color: aquamarine;
+}
+.contact-info-lenguage li{
+    list-style: none;
+}
+.text1{
+    color:#fff;
+    font-size: 20px;
+}
+.right-side{
+    background-color:tan;
+    position:relative;
+    padding: 40px;
+}
+p{
+    color:gray;
+    font-weight: 30px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title2{
+   color:#003147; 
+   width: 25px;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+.about .box{
+    display:flex;
+    flex-direction: none;
+    margin:20px 0;
+
+}
+.year-company{
+    min-width: 150px;
+}
+.year-company h5{
+    text-transform: uppercase;
+    color: cadetblue;
+    font-weight: 600px;
+    margin:5px;
+
+}
+.text3 h4{
+    font-size: 20px;
+    color:aquamarine;
+}
+.box{
+    position:relative;
+    width:100%;
+    display:grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.title3{
+    color:#003147;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h4{
+    color:white;
+    text-transform: uppercase;
+}
+.pancent1{
+     position: relative;
+     width:100%;
+     height: 10px;
+     background-color: #fefefe;
+}
+.pancent1 div{
+    position:absolute;
+    height:100%;
+    top:0;
+    left:0;
+    background-color: aqua; 
+
+}
+.about-interst ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.about-interst ul li{
+    list-style: none;
+    margin: 5px;
+    color:rgb(40, 38, 199);
+    font-size: 20px;
+}
